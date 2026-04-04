@@ -5,7 +5,7 @@ tags: ["HPC", "GEMM", "AVX2", "性能优化", "x86"]
 author: "乐豆芽"
 showToc: true
 TocOpen: true
-draft: false
+draft: true
 hidemeta: false
 comments: false
 description: "我围绕单精度矩阵乘法做了一次完整的性能优化实验，从循环重排到 AVX2 寄存器分块，最终拿到约 45 倍加速。"
