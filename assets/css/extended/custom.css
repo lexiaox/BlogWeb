@@ -54,6 +54,25 @@ body {
     padding: 72px 48px;
 }
 
+body:not(.list) .main {
+    max-width: min(1440px, calc(100vw - 32px));
+    padding: 16px;
+}
+
+body:not(.list) .post-single {
+    width: 100%;
+    padding: 48px 72px;
+}
+
+body:not(.list) .post-header,
+body:not(.list) .post-content,
+body:not(.list) .post-footer,
+body:not(.list) .toc {
+    max-width: 860px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
 .post-entry,
 .post-single,
 .first-entry {
@@ -111,6 +130,16 @@ h3 {
     .list .main .profile {
         min-height: calc(100vh - var(--header-height) - var(--footer-height) - 12px);
         padding: 48px 20px;
+        border-radius: 14px;
+    }
+
+    body:not(.list) .main {
+        max-width: calc(100vw - 12px);
+        padding: 6px;
+    }
+
+    body:not(.list) .post-single {
+        padding: 28px 18px;
         border-radius: 14px;
     }
 }
