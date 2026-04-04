@@ -69,7 +69,7 @@ body:not(.list) .post-content,
 body:not(.list) .post-footer,
 body:not(.list) .toc {
     max-width: 860px;
-    margin-left: 0;
+    margin-left: clamp(88px, 9vw, 136px);
     margin-right: auto;
 }
 
@@ -141,5 +141,12 @@ h3 {
     body:not(.list) .post-single {
         padding: 28px 18px;
         border-radius: 14px;
+    }
+
+    body:not(.list) .post-header,
+    body:not(.list) .post-content,
+    body:not(.list) .post-footer,
+    body:not(.list) .toc {
+        margin-left: 0;
     }
 }
