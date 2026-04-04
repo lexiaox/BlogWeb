@@ -69,7 +69,7 @@ body:not(.list) .post-content,
 body:not(.list) .post-footer,
 body:not(.list) .toc {
     max-width: 860px;
-    margin-left: clamp(88px, 9vw, 136px);
+    margin-left: clamp(104px, 10vw, 152px);
     margin-right: auto;
 }
 
