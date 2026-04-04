@@ -1,0 +1,105 @@
+baseURL: "https://home.sparkfade.top/"
+title: Douya Le's Website
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+minify:
+  disableXML: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "Personal Website"
+  author: Douya Le
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  images: ["images/papermod-cover.png"]
+
+  profileMode:
+    enabled: true
+    title: "ldy's Website" # optional default will be site title
+    subtitle: "coding ......."
+    imageUrl: "/images/avatar_sweater_gray_blink.gif" # optional
+    imageTitle: "coding..." # optional
+    imageWidth: 120 # custom siz
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archives/"
+      - name: Github
+        url: "https://github.com/lexiaox"
+
+  homeInfoParams:
+    Title: "Welcome to ldy's Website"
+    Content: >
+      -这里是我的个人博客<br>
+      -我会在这记录一些我做的项目<br>
+      -感谢大家对我的关注<br>
+      <br>
+      邮箱:<br>
+      -gmail: ldy3087146292@gmail.com <br>
+      -outlook: ldy3087146292@outlook.com
+
+  socialIcons:
+    - name: github
+      title: GitHub
+      url: "https://github.com/lexiaox"
+
+  editPost: 
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  assets:
+    disableHLJS: true
+  
+
+menu:
+  main:
+    - name: blogs 
+      url: posts/
+      weight: 5
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: GitHub
+      url: https://github.com/lexiaox/
+      weight: 15
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+services:
+  instagram:
+    disableInlineCSS: true
+  x:
+    disableInlineCSS: true

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nginx on Douya Le&#39;s Website</title>
+    <link>https://home.sparkfade.top/tags/nginx/</link>
+    <description>Recent content in Nginx on Douya Le&#39;s Website</description>
+    <image>
+      <title>Douya Le&#39;s Website</title>
+      <url>https://home.sparkfade.top/images/papermod-cover.png</url>
+      <link>https://home.sparkfade.top/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Apr 2026 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://home.sparkfade.top/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一次完整的 Kubernetes 静态网页部署实践</title>
+      <link>https://home.sparkfade.top/posts/kubernetes-static-site-deployment/</link>
+      <pubDate>Wed, 01 Apr 2026 12:00:00 +0800</pubDate>
+      <guid>https://home.sparkfade.top/posts/kubernetes-static-site-deployment/</guid>
+      <description>从静态网页、Docker 镜像到 Kubernetes 部署，我完整走通了一次最小可用的上线流程。</description>
+    </item>
+  </channel>
+</rss>

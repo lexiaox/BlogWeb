@@ -1,0 +1,115 @@
+:root {
+    --theme: #f6f0e1;
+    --entry: rgba(255, 251, 242, 0.8);
+    --primary: #2b241c;
+    --secondary: #6f6558;
+    --tertiary: #e3d7bf;
+    --content: #332b22;
+    --border: rgba(122, 96, 61, 0.16);
+    --paper-shadow: 0 18px 45px rgba(80, 58, 31, 0.08);
+}
+
+body {
+    background-color: var(--theme);
+    background-image:
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.45) 0, transparent 22%),
+        radial-gradient(circle at 80% 30%, rgba(140, 110, 70, 0.05) 0, transparent 18%),
+        radial-gradient(circle at 30% 80%, rgba(120, 90, 55, 0.04) 0, transparent 20%),
+        repeating-linear-gradient(
+            0deg,
+            rgba(90, 70, 45, 0.018) 0px,
+            rgba(90, 70, 45, 0.018) 1px,
+            transparent 1px,
+            transparent 4px
+        );
+    background-attachment: fixed;
+}
+
+.main .profile,
+.post-entry,
+.post-single,
+.first-entry,
+.archive-post,
+.terms-tags a {
+    background: var(--entry);
+    box-shadow: var(--paper-shadow);
+    border: 1px solid var(--border);
+}
+
+.main .profile {
+    border-radius: 18px;
+    padding: 48px 32px;
+    backdrop-filter: blur(1px);
+}
+
+.list .main {
+    max-width: min(1440px, calc(100vw - 32px));
+    padding: 16px;
+}
+
+.list .main .profile {
+    width: 100%;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height) - 32px);
+    padding: 72px 48px;
+}
+
+.post-entry,
+.post-single,
+.first-entry {
+    border-radius: 16px;
+}
+
+.profile img {
+    box-shadow: 0 10px 30px rgba(84, 63, 38, 0.16);
+}
+
+.button {
+    background: #efe4cc;
+    border: 1px solid rgba(122, 96, 61, 0.16);
+}
+
+.logo a,
+.nav a,
+h1,
+h2,
+h3 {
+    letter-spacing: 0.02em;
+}
+
+:root[data-theme="dark"] {
+    --theme: #2d261f;
+    --entry: rgba(58, 47, 37, 0.86);
+    --primary: #f2eadb;
+    --secondary: #d0c1ab;
+    --tertiary: #4f4235;
+    --content: #efe6d8;
+    --border: rgba(231, 216, 192, 0.12);
+    --paper-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+}
+
+:root[data-theme="dark"] body {
+    background-image:
+        radial-gradient(circle at 20% 20%, rgba(255, 248, 230, 0.07) 0, transparent 22%),
+        radial-gradient(circle at 80% 30%, rgba(255, 221, 173, 0.05) 0, transparent 18%),
+        radial-gradient(circle at 30% 80%, rgba(255, 237, 209, 0.04) 0, transparent 20%),
+        repeating-linear-gradient(
+            0deg,
+            rgba(255, 234, 204, 0.018) 0px,
+            rgba(255, 234, 204, 0.018) 1px,
+            transparent 1px,
+            transparent 4px
+        );
+}
+
+@media (max-width: 768px) {
+    .list .main {
+        max-width: calc(100vw - 12px);
+        padding: 6px;
+    }
+
+    .list .main .profile {
+        min-height: calc(100vh - var(--header-height) - var(--footer-height) - 12px);
+        padding: 48px 20px;
+        border-radius: 14px;
+    }
+}
