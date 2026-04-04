@@ -1,4 +1,5 @@
 :root {
+    --main-width: 920px;
     --theme: #f6f0e1;
     --entry: rgba(255, 251, 242, 0.8);
     --primary: #2b241c;
