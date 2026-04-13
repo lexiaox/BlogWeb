@@ -148,7 +148,6 @@ LinkNest 现在还处在早期设计和原型阶段，正适合一起讨论和�
 
 - GitHub: [lexiaox](https://github.com/lexiaox)
 - Gmail: `ldy3087146292@gmail.com`
-- Outlook: `ldy3087146292@outlook.com`
 
 等仓库和基础原型整理好后，我也会继续把开发进展写到这里。  
 如果你也遇到过多设备传文件、动态 IP、云端资源管理和大文件中断这些问题，欢迎一起把 LinkNest 做出来。
