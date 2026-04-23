@@ -1,0 +1,38 @@
+{{- define "main" }}
+{{- $location := .Params.location | default .CurrentSection.Params.location -}}
+{{- $author := .Params.author | default .CurrentSection.Params.author -}}
+
+<article class="post-single gallery-photo-single">
+  {{- partial "breadcrumbs.html" . }}
+
+  <div class="gallery-photo-single__frame">
+    {{- with .Params.photo }}
+    <img class="gallery-photo-single__image" src="{{ . | absURL }}" alt="{{ $.Title }}">
+    {{- end }}
+  </div>
+
+  <div class="gallery-photo-single__meta">
+    <p class="gallery-photo-single__title">{{ .Title }}</p>
+    <div class="gallery-photo-single__info">
+      <span>日期：{{ .Date.Format "2006 / 1 / 2" }}</span>
+      {{- with $location }}<span>地点：{{ . }}</span>{{- end }}
+      {{- with $author }}<span>作者：{{ . }}</span>{{- end }}
+    </div>
+  </div>
+
+  {{- with .Params.tags }}
+  <div class="gallery-photo-single__tags">
+    {{- range . }}
+    <a class="gallery-photo-single__tag" href="{{ (printf "/tags/%s/" (. | urlize)) | absURL }}">{{ . }}</a>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="gallery-photo-single__note">
+    {{ .Content }}
+  </div>
+  {{- end }}
+</article>
+
+{{- end }}

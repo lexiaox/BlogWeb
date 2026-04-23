@@ -1,4 +1,4 @@
-baseURL: "https://blogweb.ldy3087146292.workers.dev/"
+baseURL: "http://www.ledouya.top/"
 title: Douya Le's Website
 theme: PaperMod
 
@@ -13,6 +13,10 @@ mainsections: ["posts"]
 
 minify:
   disableXML: true
+
+caches:
+  images:
+    dir: :cacheDir/images
 
 pagination:
   disableAliases: false
@@ -83,6 +87,9 @@ menu:
     - name: blogs 
       url: posts/
       weight: 5
+    - name: Gallery
+      url: gallery/
+      weight: 8
     - name: Tags
       url: tags/
       weight: 10

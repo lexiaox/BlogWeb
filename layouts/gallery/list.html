@@ -1,0 +1,64 @@
+{{- define "main" }}
+
+{{- $isRootGallery := eq .File.Path "gallery/_index.md" -}}
+{{- $groups := slice -}}
+{{- if $isRootGallery -}}
+  {{- $groups = .Sections.ByDate.Reverse -}}
+{{- else -}}
+  {{- $groups = slice . -}}
+{{- end -}}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+<div class="gallery-groups">
+  {{- range $groups }}
+  {{- $group := . -}}
+  {{- $photos := $group.RegularPages.ByDate -}}
+  {{- if gt (len $photos) 0 }}
+  <section class="gallery-group-card">
+    <div class="gallery-group-card__head">
+      <div class="gallery-group-card__title-wrap">
+        <h2 class="gallery-group-card__title">
+          {{- if $isRootGallery -}}
+          <a href="{{ $group.Permalink }}">{{ $group.Title }}</a>
+          {{- else -}}
+          {{ $group.Title }}
+          {{- end -}}
+        </h2>
+        <div class="gallery-group-card__divider"></div>
+      </div>
+      <p class="gallery-group-card__meta">
+        <span>日期：{{ $group.Title }}</span>
+        {{- with $group.Params.location }}<span>地点：{{ . }}</span>{{- end }}
+        {{- with $group.Params.author }}<span>作者：{{ . }}</span>{{- end }}
+      </p>
+    </div>
+
+    <div class="gallery-photo-grid">
+      {{- range $photos }}
+      <article class="gallery-photo-card">
+        <a class="gallery-photo-card__link" href="{{ .Permalink }}" aria-label="{{ .Title }}">
+          {{- with .Params.photo }}
+          <img class="gallery-photo-card__image" src="{{ . | absURL }}" alt="{{ $.Title }}">
+          {{- end }}
+          <div class="gallery-photo-card__body">
+            <h3 class="gallery-photo-card__title">{{ .Title }}</h3>
+          </div>
+        </a>
+      </article>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+  {{- end }}
+</div>
+
+{{- end }}
