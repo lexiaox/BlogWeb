@@ -47,7 +47,7 @@
       <article class="gallery-photo-card">
         <a class="gallery-photo-card__link" href="{{ .Permalink }}" aria-label="{{ .Title }}">
           {{- with .Params.photo }}
-          <img class="gallery-photo-card__image" src="{{ . | absURL }}" alt="{{ $.Title }}">
+          <img class="gallery-photo-card__image" src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Title }}">
           {{- end }}
           <div class="gallery-photo-card__body">
             <h3 class="gallery-photo-card__title">{{ .Title }}</h3>
