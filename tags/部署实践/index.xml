@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>部署实践 on Douya Le&#39;s Website</title>
+    <link>https://lexiaox.github.io/BlogWeb/tags/%E9%83%A8%E7%BD%B2%E5%AE%9E%E8%B7%B5/</link>
+    <description>Recent content in 部署实践 on Douya Le&#39;s Website</description>
+    <image>
+      <title>Douya Le&#39;s Website</title>
+      <url>https://lexiaox.github.io/BlogWeb/images/papermod-cover.png</url>
+      <link>https://lexiaox.github.io/BlogWeb/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Apr 2026 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://lexiaox.github.io/BlogWeb/tags/%E9%83%A8%E7%BD%B2%E5%AE%9E%E8%B7%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一次完整的 Kubernetes 静态网页部署实践</title>
+      <link>https://lexiaox.github.io/BlogWeb/posts/kubernetes-static-site-deployment/</link>
+      <pubDate>Wed, 01 Apr 2026 12:00:00 +0800</pubDate>
+      <guid>https://lexiaox.github.io/BlogWeb/posts/kubernetes-static-site-deployment/</guid>
+      <description>从静态网页、Docker 镜像到 Kubernetes 部署，我完整走通了一次最小可用的上线流程。</description>
+    </item>
+  </channel>
+</rss>

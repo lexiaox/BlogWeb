@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Douya Le&#39;s Website</title>
+    <link>https://lexiaox.github.io/BlogWeb/posts/</link>
+    <description>Recent content in Posts on Douya Le&#39;s Website</description>
+    <image>
+      <title>Douya Le&#39;s Website</title>
+      <url>https://lexiaox.github.io/BlogWeb/images/papermod-cover.png</url>
+      <link>https://lexiaox.github.io/BlogWeb/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Apr 2026 15:40:00 +0800</lastBuildDate>
+    <atom:link href="https://lexiaox.github.io/BlogWeb/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LinkNest：我想做一个更可靠的多端资源传输系统</title>
+      <link>https://lexiaox.github.io/BlogWeb/posts/linknest-multi-device-transfer-system/</link>
+      <pubDate>Mon, 13 Apr 2026 15:40:00 +0800</pubDate>
+      <guid>https://lexiaox.github.io/BlogWeb/posts/linknest-multi-device-transfer-system/</guid>
+      <description>LinkNest 想解决多设备传输里经常遇到的 IP 变化、设备不同时在线、大文件中断和云端资源管理问题。这个项目还在早期，我也希望更多感兴趣的人一起参与进来。</description>
+    </item>
+    <item>
+      <title>把 Hugo 博客从本地示例站搭成可上线的个人网站</title>
+      <link>https://lexiaox.github.io/BlogWeb/posts/building-blogweb-with-hugo-papermod-and-cloudflare/</link>
+      <pubDate>Sat, 04 Apr 2026 17:30:00 +0800</pubDate>
+      <guid>https://lexiaox.github.io/BlogWeb/posts/building-blogweb-with-hugo-papermod-and-cloudflare/</guid>
+      <description>这次我把一个 Hugo &#43; PaperMod 的博客，从本地能跑的主题示例，整理成了一个真正可以持续维护和上线的个人网站。</description>
+    </item>
+    <item>
+      <title>一次完整的 Kubernetes 静态网页部署实践</title>
+      <link>https://lexiaox.github.io/BlogWeb/posts/kubernetes-static-site-deployment/</link>
+      <pubDate>Wed, 01 Apr 2026 12:00:00 +0800</pubDate>
+      <guid>https://lexiaox.github.io/BlogWeb/posts/kubernetes-static-site-deployment/</guid>
+      <description>从静态网页、Docker 镜像到 Kubernetes 部署，我完整走通了一次最小可用的上线流程。</description>
+    </item>
+    <item>
+      <title>把 dotfiles 整理成仓库并同步到 GitHub</title>
+      <link>https://lexiaox.github.io/BlogWeb/posts/building-and-syncing-dotfiles/</link>
+      <pubDate>Sat, 07 Mar 2026 17:20:00 +0800</pubDate>
+      <guid>https://lexiaox.github.io/BlogWeb/posts/building-and-syncing-dotfiles/</guid>
+      <description>我把常用配置文件整理成 dotfiles 仓库，并写了安装脚本，把环境迁移这件事变得可重复。</description>
+    </item>
+  </channel>
+</rss>

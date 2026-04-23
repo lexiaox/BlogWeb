@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>界面 on Douya Le&#39;s Website</title>
+    <link>https://lexiaox.github.io/BlogWeb/tags/%E7%95%8C%E9%9D%A2/</link>
+    <description>Recent content in 界面 on Douya Le&#39;s Website</description>
+    <image>
+      <title>Douya Le&#39;s Website</title>
+      <url>https://lexiaox.github.io/BlogWeb/images/papermod-cover.png</url>
+      <link>https://lexiaox.github.io/BlogWeb/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Apr 2026 21:10:00 +0800</lastBuildDate>
+    <atom:link href="https://lexiaox.github.io/BlogWeb/tags/%E7%95%8C%E9%9D%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>头像动图测试</title>
+      <link>https://lexiaox.github.io/BlogWeb/gallery/2026-04-04/avatar-loop/</link>
+      <pubDate>Sat, 04 Apr 2026 21:10:00 +0800</pubDate>
+      <guid>https://lexiaox.github.io/BlogWeb/gallery/2026-04-04/avatar-loop/</guid>
+      <description>用于测试首页头像与动图加载效果。</description>
+    </item>
+  </channel>
+</rss>

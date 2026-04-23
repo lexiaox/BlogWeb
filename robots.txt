@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://lexiaox.github.io/BlogWeb/sitemap.xml
