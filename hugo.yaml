@@ -48,13 +48,13 @@ params:
     enabled: true
     title: "ldy's Website" # optional default will be site title
     subtitle: "coding ......."
-    imageUrl: "/images/avatar_sweater_gray_blink.gif" # optional
+    imageUrl: "images/avatar_sweater_gray_blink.gif" # optional
     imageTitle: "coding..." # optional
     imageWidth: 120 # custom siz
     imageHeight: 120 # custom size
     buttons:
       - name: Archive
-        url: "/archives/"
+        url: "archives/"
       - name: Github
         url: "https://github.com/lexiaox"
 
