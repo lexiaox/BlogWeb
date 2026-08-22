@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>蓝天 on Douya Le&#39;s Website</title>
+    <link>https://blog.ledouya.top/tags/%E8%93%9D%E5%A4%A9/</link>
+    <description>Recent content in 蓝天 on Douya Le&#39;s Website</description>
+    <image>
+      <title>Douya Le&#39;s Website</title>
+      <url>https://blog.ledouya.top/images/papermod-cover.png</url>
+      <link>https://blog.ledouya.top/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Apr 2026 12:02:00 +0800</lastBuildDate>
+    <atom:link href="https://blog.ledouya.top/tags/%E8%93%9D%E5%A4%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>春日花枝</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/spring-blossom-blue-sky/</link>
+      <pubDate>Sun, 05 Apr 2026 12:02:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/spring-blossom-blue-sky/</guid>
+      <description>柔和的花枝被蓝天托起，画面很轻。</description>
+    </item>
+    <item>
+      <title>樱花与蓝天</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/cherry-blossom-blue-sky/</link>
+      <pubDate>Sun, 05 Apr 2026 12:01:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/cherry-blossom-blue-sky/</guid>
+      <description>西安春日里的一枝樱花，在清亮蓝天下舒展开来。</description>
+    </item>
+  </channel>
+</rss>

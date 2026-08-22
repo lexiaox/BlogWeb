@@ -2,36 +2,141 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Douya Le&#39;s Website</title>
-    <link>https://home.sparkfade.top/</link>
+    <link>https://blog.ledouya.top/</link>
     <description>Recent content on Douya Le&#39;s Website</description>
     <image>
       <title>Douya Le&#39;s Website</title>
-      <url>https://home.sparkfade.top/images/papermod-cover.png</url>
-      <link>https://home.sparkfade.top/images/papermod-cover.png</link>
+      <url>https://blog.ledouya.top/images/papermod-cover.png</url>
+      <link>https://blog.ledouya.top/images/papermod-cover.png</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Apr 2026 20:45:00 +0800</lastBuildDate>
-    <atom:link href="https://home.sparkfade.top/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Apr 2026 16:20:38 +0800</lastBuildDate>
+    <atom:link href="https://blog.ledouya.top/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>从朴素实现到 45 倍加速：一次 x86 单精度 GEMM 优化记录</title>
-      <link>https://home.sparkfade.top/posts/x86-gemm-optimization-notes/</link>
-      <pubDate>Wed, 01 Apr 2026 20:45:00 +0800</pubDate>
-      <guid>https://home.sparkfade.top/posts/x86-gemm-optimization-notes/</guid>
-      <description>我围绕单精度矩阵乘法做了一次完整的性能优化实验，从循环重排到 AVX2 寄存器分块，最终拿到约 45 倍加速。</description>
+      <title>走廊里的夕阳</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-13/sunset-corridor-reflection/</link>
+      <pubDate>Mon, 13 Apr 2026 16:20:38 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-13/sunset-corridor-reflection/</guid>
+      <description>夕阳从走廊外照进来，在地面上留下很亮的一条反光。</description>
+    </item>
+    <item>
+      <title>远山和校园</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-13/misty-campus-hills/</link>
+      <pubDate>Mon, 13 Apr 2026 16:20:36 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-13/misty-campus-hills/</guid>
+      <description>远处的山被雾气压低，校园的树和建筑铺在前景里。</description>
+    </item>
+    <item>
+      <title>校园日落</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-13/campus-sunset-building/</link>
+      <pubDate>Mon, 13 Apr 2026 16:20:34 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-13/campus-sunset-building/</guid>
+      <description>日落贴着校园建筑落下，天空和屋檐都被染成了暖色。</description>
+    </item>
+    <item>
+      <title>LinkNest：我想做一个更可靠的多端资源传输系统</title>
+      <link>https://blog.ledouya.top/posts/linknest-multi-device-transfer-system/</link>
+      <pubDate>Mon, 13 Apr 2026 15:40:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/posts/linknest-multi-device-transfer-system/</guid>
+      <description>LinkNest 想解决多设备传输里经常遇到的 IP 变化、设备不同时在线、大文件中断和云端资源管理问题。这个项目还在早期，我也希望更多感兴趣的人一起参与进来。</description>
+    </item>
+    <item>
+      <title>灯下花簇</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/blossoms-around-lantern/</link>
+      <pubDate>Sun, 05 Apr 2026 12:10:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/blossoms-around-lantern/</guid>
+      <description>灯光把花簇一层层托起来，夜里会比白天更浓。</description>
+    </item>
+    <item>
+      <title>湖边倒影</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/lake-pavilion-reflection/</link>
+      <pubDate>Sun, 05 Apr 2026 12:09:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/lake-pavilion-reflection/</guid>
+      <description>从圆形框景里看出去，湖面把灯光和建筑一起收进去了。</description>
+    </item>
+    <item>
+      <title>夜空下的枝条</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/branches-under-night-sky/</link>
+      <pubDate>Sun, 05 Apr 2026 12:08:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/branches-under-night-sky/</guid>
+      <description>被路灯染亮的枝条，在夜空里铺开了细密的线条。</description>
+    </item>
+    <item>
+      <title>夜里的花与灯</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/blossom-lantern-night/</link>
+      <pubDate>Sun, 05 Apr 2026 12:07:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/blossom-lantern-night/</guid>
+      <description>夜色一暗，花枝和灯光就都变得很有故事感。</description>
+    </item>
+    <item>
+      <title>暮色里的古塔</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/pagoda-at-dusk/</link>
+      <pubDate>Sun, 05 Apr 2026 12:06:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/pagoda-at-dusk/</guid>
+      <description>暮色刚落下来时，古塔和屋檐一起保留了最后一点亮色。</description>
+    </item>
+    <item>
+      <title>落日中的古塔剪影</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/pagoda-silhouette-sunset/</link>
+      <pubDate>Sun, 05 Apr 2026 12:05:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/pagoda-silhouette-sunset/</guid>
+      <description>逆光下的人像与古塔一起沉进落日。</description>
+    </item>
+    <item>
+      <title>佛像与古塔</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/monk-statue-and-pagoda/</link>
+      <pubDate>Sun, 05 Apr 2026 12:04:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/monk-statue-and-pagoda/</guid>
+      <description>佛像与古塔同框，画面很稳，也很西安。</description>
+    </item>
+    <item>
+      <title>林间天光</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/cedar-grove-sunlight/</link>
+      <pubDate>Sun, 05 Apr 2026 12:03:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/cedar-grove-sunlight/</guid>
+      <description>高高的树影之间，天光从林间落下来。</description>
+    </item>
+    <item>
+      <title>春日花枝</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/spring-blossom-blue-sky/</link>
+      <pubDate>Sun, 05 Apr 2026 12:02:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/spring-blossom-blue-sky/</guid>
+      <description>柔和的花枝被蓝天托起，画面很轻。</description>
+    </item>
+    <item>
+      <title>樱花与蓝天</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/cherry-blossom-blue-sky/</link>
+      <pubDate>Sun, 05 Apr 2026 12:01:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/cherry-blossom-blue-sky/</guid>
+      <description>西安春日里的一枝樱花，在清亮蓝天下舒展开来。</description>
+    </item>
+    <item>
+      <title>头像动图测试</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-04/avatar-loop/</link>
+      <pubDate>Sat, 04 Apr 2026 21:10:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-04/avatar-loop/</guid>
+      <description>用于测试首页头像与动图加载效果。</description>
+    </item>
+    <item>
+      <title>把 Hugo 博客从本地示例站搭成可上线的个人网站</title>
+      <link>https://blog.ledouya.top/posts/building-blogweb-with-hugo-papermod-and-cloudflare/</link>
+      <pubDate>Sat, 04 Apr 2026 17:30:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/posts/building-blogweb-with-hugo-papermod-and-cloudflare/</guid>
+      <description>这次我把一个 Hugo &#43; PaperMod 的博客，从本地能跑的主题示例，整理成了一个真正可以持续维护和上线的个人网站。</description>
     </item>
     <item>
       <title>一次完整的 Kubernetes 静态网页部署实践</title>
-      <link>https://home.sparkfade.top/posts/kubernetes-static-site-deployment/</link>
+      <link>https://blog.ledouya.top/posts/kubernetes-static-site-deployment/</link>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0800</pubDate>
-      <guid>https://home.sparkfade.top/posts/kubernetes-static-site-deployment/</guid>
+      <guid>https://blog.ledouya.top/posts/kubernetes-static-site-deployment/</guid>
       <description>从静态网页、Docker 镜像到 Kubernetes 部署，我完整走通了一次最小可用的上线流程。</description>
     </item>
     <item>
       <title>把 dotfiles 整理成仓库并同步到 GitHub</title>
-      <link>https://home.sparkfade.top/posts/building-and-syncing-dotfiles/</link>
+      <link>https://blog.ledouya.top/posts/building-and-syncing-dotfiles/</link>
       <pubDate>Sat, 07 Mar 2026 17:20:00 +0800</pubDate>
-      <guid>https://home.sparkfade.top/posts/building-and-syncing-dotfiles/</guid>
+      <guid>https://blog.ledouya.top/posts/building-and-syncing-dotfiles/</guid>
       <description>我把常用配置文件整理成 dotfiles 仓库，并写了安装脚本，把环境迁移这件事变得可重复。</description>
     </item>
   </channel>

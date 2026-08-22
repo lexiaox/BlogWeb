@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>光影 on Douya Le&#39;s Website</title>
+    <link>https://blog.ledouya.top/tags/%E5%85%89%E5%BD%B1/</link>
+    <description>Recent content in 光影 on Douya Le&#39;s Website</description>
+    <image>
+      <title>Douya Le&#39;s Website</title>
+      <url>https://blog.ledouya.top/images/papermod-cover.png</url>
+      <link>https://blog.ledouya.top/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Apr 2026 16:20:38 +0800</lastBuildDate>
+    <atom:link href="https://blog.ledouya.top/tags/%E5%85%89%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>走廊里的夕阳</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-13/sunset-corridor-reflection/</link>
+      <pubDate>Mon, 13 Apr 2026 16:20:38 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-13/sunset-corridor-reflection/</guid>
+      <description>夕阳从走廊外照进来，在地面上留下很亮的一条反光。</description>
+    </item>
+    <item>
+      <title>林间天光</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-05/cedar-grove-sunlight/</link>
+      <pubDate>Sun, 05 Apr 2026 12:03:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-05/cedar-grove-sunlight/</guid>
+      <description>高高的树影之间，天光从林间落下来。</description>
+    </item>
+  </channel>
+</rss>

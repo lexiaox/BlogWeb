@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://home.sparkfade.top/sitemap.xml
+Sitemap: https://blog.ledouya.top/sitemap.xml

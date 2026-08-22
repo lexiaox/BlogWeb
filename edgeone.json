@@ -1,0 +1,5 @@
+{
+  "hugoVersion": "0.147.5",
+  "buildCommand": "hugo --minify --gc",
+  "outputDirectory": "public"
+}

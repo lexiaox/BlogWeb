@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>头像 on Douya Le&#39;s Website</title>
+    <link>https://blog.ledouya.top/tags/%E5%A4%B4%E5%83%8F/</link>
+    <description>Recent content in 头像 on Douya Le&#39;s Website</description>
+    <image>
+      <title>Douya Le&#39;s Website</title>
+      <url>https://blog.ledouya.top/images/papermod-cover.png</url>
+      <link>https://blog.ledouya.top/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Apr 2026 21:10:00 +0800</lastBuildDate>
+    <atom:link href="https://blog.ledouya.top/tags/%E5%A4%B4%E5%83%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>头像动图测试</title>
+      <link>https://blog.ledouya.top/gallery/2026-04-04/avatar-loop/</link>
+      <pubDate>Sat, 04 Apr 2026 21:10:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/gallery/2026-04-04/avatar-loop/</guid>
+      <description>用于测试首页头像与动图加载效果。</description>
+    </item>
+  </channel>
+</rss>

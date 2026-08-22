@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Go on Douya Le&#39;s Website</title>
+    <link>https://blog.ledouya.top/tags/go/</link>
+    <description>Recent content in Go on Douya Le&#39;s Website</description>
+    <image>
+      <title>Douya Le&#39;s Website</title>
+      <url>https://blog.ledouya.top/images/papermod-cover.png</url>
+      <link>https://blog.ledouya.top/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Apr 2026 15:40:00 +0800</lastBuildDate>
+    <atom:link href="https://blog.ledouya.top/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LinkNest：我想做一个更可靠的多端资源传输系统</title>
+      <link>https://blog.ledouya.top/posts/linknest-multi-device-transfer-system/</link>
+      <pubDate>Mon, 13 Apr 2026 15:40:00 +0800</pubDate>
+      <guid>https://blog.ledouya.top/posts/linknest-multi-device-transfer-system/</guid>
+      <description>LinkNest 想解决多设备传输里经常遇到的 IP 变化、设备不同时在线、大文件中断和云端资源管理问题。这个项目还在早期，我也希望更多感兴趣的人一起参与进来。</description>
+    </item>
+  </channel>
+</rss>
